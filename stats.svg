@@ -1,0 +1,33 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="100%" stop-color="#0a0014"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="180" fill="none"/>
+  <g transform="translate(20,20)">
+    <rect width="200" height="140" rx="14" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+    <text x="100" y="45" text-anchor="middle" font-family="Segoe UI" font-size="14" fill="#c4b5fd">⭐ Total Stars</text>
+    <text x="100" y="90" text-anchor="middle" font-family="Segoe UI" font-size="34" font-weight="700" fill="#e879f9">--</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#8b7bb0">updated live via API</text>
+  </g>
+  <g transform="translate(240,20)">
+    <rect width="200" height="140" rx="14" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <text x="100" y="45" text-anchor="middle" font-family="Segoe UI" font-size="14" fill="#c4b5fd">🔥 Streak</text>
+    <text x="100" y="90" text-anchor="middle" font-family="Segoe UI" font-size="34" font-weight="700" fill="#818cf8">--</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#8b7bb0">day streak</text>
+  </g>
+  <g transform="translate(460,20)">
+    <rect width="200" height="140" rx="14" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
+    <text x="100" y="45" text-anchor="middle" font-family="Segoe UI" font-size="14" fill="#c4b5fd">📦 Repositories</text>
+    <text x="100" y="90" text-anchor="middle" font-family="Segoe UI" font-size="34" font-weight="700" fill="#c084fc">--</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#8b7bb0">public repos</text>
+  </g>
+  <g transform="translate(680,20)">
+    <rect width="200" height="140" rx="14" fill="url(#cardGrad)" stroke="#f0abfc" stroke-width="1"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <text x="100" y="45" text-anchor="middle" font-family="Segoe UI" font-size="14" fill="#c4b5fd">💻 Commits</text>
+    <text x="100" y="90" text-anchor="middle" font-family="Segoe UI" font-size="34" font-weight="700" fill="#f0abfc">--</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#8b7bb0">this year</text>
+  </g>
+</svg>
