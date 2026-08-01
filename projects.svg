@@ -1,0 +1,43 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0033"/><stop offset="100%" stop-color="#0a0014"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20,20)">
+    <rect width="200" height="220" rx="14" fill="url(#pCard)" stroke="#a855f7"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></rect>
+    <text x="100" y="35" text-anchor="middle" font-size="26">🩻</text>
+    <text x="100" y="70" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">Medical Image</text>
+    <text x="100" y="88" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">Analysis</text>
+    <text x="100" y="115" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">Deep Learning disease</text>
+    <text x="100" y="130" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">detection with CNN</text>
+    <text x="100" y="195" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#818cf8">Python • TensorFlow • OpenCV</text>
+  </g>
+  <g transform="translate(240,20)">
+    <rect width="200" height="220" rx="14" fill="url(#pCard)" stroke="#818cf8"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <text x="100" y="35" text-anchor="middle" font-size="26">🤝</text>
+    <text x="100" y="70" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">NGO Donation</text>
+    <text x="100" y="88" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">Portal</text>
+    <text x="100" y="115" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">Full-stack platform to</text>
+    <text x="100" y="130" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">support NGOs</text>
+    <text x="100" y="195" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#818cf8">Django • SQLite • HTML/CSS</text>
+  </g>
+  <g transform="translate(460,20)">
+    <rect width="200" height="220" rx="14" fill="url(#pCard)" stroke="#c084fc"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <text x="100" y="35" text-anchor="middle" font-size="26">🛒</text>
+    <text x="100" y="70" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">Fav Cart</text>
+    <text x="100" y="88" text-anchor="middle" font-family="Segoe UI" font-size="12" font-weight="700" fill="#e879f9">(E-Commerce)</text>
+    <text x="100" y="115" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">Cart, auth &amp; order</text>
+    <text x="100" y="130" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">flow platform</text>
+    <text x="100" y="195" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#818cf8">Django • SQLite • Bootstrap</text>
+  </g>
+  <g transform="translate(680,20)">
+    <rect width="200" height="220" rx="14" fill="url(#pCard)" stroke="#f0abfc"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <text x="100" y="35" text-anchor="middle" font-size="26">🍽️</text>
+    <text x="100" y="70" text-anchor="middle" font-family="Segoe UI" font-size="13" font-weight="700" fill="#e879f9">Desi Tadka</text>
+    <text x="100" y="88" text-anchor="middle" font-family="Segoe UI" font-size="12" font-weight="700" fill="#e879f9">Restaurant Site</text>
+    <text x="100" y="115" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">Frontend restaurant</text>
+    <text x="100" y="130" text-anchor="middle" font-family="Segoe UI" font-size="10" fill="#c4b5fd">ordering website</text>
+    <text x="100" y="195" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#818cf8">HTML • CSS • JavaScript</text>
+  </g>
+</svg>
