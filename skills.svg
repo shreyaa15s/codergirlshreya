@@ -1,0 +1,35 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill:#150029; stroke:#a855f7; stroke-width:1; opacity:0.85; }
+      .label { font-family:'Segoe UI',sans-serif; font-size:12px; fill:#e0d4ff; text-anchor:middle; }
+    </style>
+  </defs>
+  <rect width="900" height="200" fill="none"/>
+  <!-- Row generator: 7 skills -->
+  <g>
+    <!-- Python -->
+    <g transform="translate(20,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#3776ab"/><text x="55" y="42" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">Py</text><text class="label" x="55" y="75">Python</text></g>
+    <!-- Java -->
+    <g transform="translate(150,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="0.2s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#f89820"/><text x="55" y="42" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">Jv</text><text class="label" x="55" y="75">Java</text></g>
+    <!-- Django -->
+    <g transform="translate(280,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="0.4s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#092e20"/><text x="55" y="42" text-anchor="middle" font-size="13" fill="#44b78b" font-weight="bold">Dj</text><text class="label" x="55" y="75">Django</text></g>
+    <!-- React -->
+    <g transform="translate(410,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="0.6s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#0b1220"/><text x="55" y="42" text-anchor="middle" font-size="13" fill="#61dafb" font-weight="bold">R</text><text class="label" x="55" y="75">React</text></g>
+    <!-- TensorFlow -->
+    <g transform="translate(540,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="0.8s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#ff6f00"/><text x="55" y="42" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">TF</text><text class="label" x="55" y="75">TensorFlow</text></g>
+    <!-- OpenCV -->
+    <g transform="translate(670,20)"><rect class="card" width="110" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="1s" repeatCount="indefinite"/></rect><circle cx="55" cy="35" r="18" fill="#5c3ee8"/><text x="55" y="42" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">CV</text><text class="label" x="55" y="75">OpenCV</text></g>
+    <!-- MongoDB -->
+    <g transform="translate(800,20)"><rect class="card" width="80" height="90" rx="12"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" begin="1.2s" repeatCount="indefinite"/></rect><circle cx="40" cy="35" r="18" fill="#47a248"/><text x="40" y="42" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">Mo</text><text class="label" x="40" y="75">Mongo</text></g>
+  </g>
+  <g transform="translate(0,110)">
+    <g transform="translate(20,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="12" fill="#e34f26" font-weight="bold">HTML5</text><text class="label" x="55" y="55">Markup</text></g>
+    <g transform="translate(150,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="12" fill="#1572b6" font-weight="bold">CSS3</text><text class="label" x="55" y="55">Styling</text></g>
+    <g transform="translate(280,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="12" fill="#f7df1e" font-weight="bold">JS</text><text class="label" x="55" y="55">JavaScript</text></g>
+    <g transform="translate(410,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="10" fill="#38bdf8" font-weight="bold">Tailwind</text><text class="label" x="55" y="55">CSS</text></g>
+    <g transform="translate(540,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="12" fill="#f05032" font-weight="bold">Git</text><text class="label" x="55" y="55">Version Ctrl</text></g>
+    <g transform="translate(670,0)"><rect class="card" width="110" height="70" rx="12"/><text x="55" y="32" text-anchor="middle" font-size="11" fill="#e0d4ff" font-weight="bold">GitHub</text><text class="label" x="55" y="55">Hosting</text></g>
+    <g transform="translate(800,0)"><rect class="card" width="80" height="70" rx="12"/><text x="40" y="32" text-anchor="middle" font-size="12" fill="#00618a" font-weight="bold">SQL</text><text class="label" x="40" y="55">Database</text></g>
+  </g>
+</svg>
